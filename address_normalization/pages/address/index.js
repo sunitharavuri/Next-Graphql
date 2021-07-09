@@ -19,7 +19,7 @@ export default function EnterAddress(){
   const removeTypename = (variables) =>
    JSON.parse(JSON.stringify(variables), omitTypename);
   
-  const GQL_API = '//api.staging.updater.com/graphql';
+  const GQL_API = 'API-KEY ';
    function fetchGraphQLQuery({
     query,
     variables,
